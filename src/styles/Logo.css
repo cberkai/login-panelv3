@@ -1,0 +1,12 @@
+@font-face {
+  font-family: myfont;
+  src: url(../fonts/DaysOne-Regular.ttf);
+}
+
+.logowr {
+  right: 30%;
+  position: relative;
+  font-size: 110px;
+  font-family: myfont;
+  color: white;
+}
