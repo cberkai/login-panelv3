@@ -1,0 +1,44 @@
+@font-face {
+  font-family: yourfont;
+  src: url(../fonts/Archivo-ExtraLight.ttf);
+}
+
+.loginform {
+  padding: 30px;
+  margin-top: 110px;
+}
+
+.logindesc {
+  border: 0px solid white;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(58, 58, 58);
+  box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset,
+    rgb(0 0 0 / 15%) 0px -36px 30px 0px inset,
+    rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px,
+    rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px,
+    rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px;
+}
+
+.logindesc h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: yourfont;
+  font-size: 30px;
+}
+
+.userinfo {
+  padding: 40px;
+  border: 3px solid rgb(105, 105, 105);
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(0 0 0 / 17%) 0px -23px 25px 0px inset,
+    rgb(0 0 0 / 15%) 0px -36px 30px 0px inset,
+    rgb(0 0 0 / 10%) 0px -79px 40px 0px inset, rgb(0 0 0 / 6%) 0px 2px 1px,
+    rgb(0 0 0 / 9%) 0px 4px 2px, rgb(0 0 0 / 9%) 0px 8px 4px,
+    rgb(0 0 0 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px;
+}
+
+.wrlogo {
+  font-size: 110px;
+}

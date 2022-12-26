@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Signup from "./components/Signup";
+import Login from "./components/Login";
+import { Grid } from "@mantine/core";
+import "../src/styles/Logo.css";
+
+// import Logindesc from "./components/Logindesc";
+// import Signupdesc from "./components/Signupdesc";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Grid justify="space-around">
+        <Grid.Col md={6} lg={4} span={12}>
+          <Signup />
+        </Grid.Col>
+        <Grid.Col md={6} lg={3} span={12}>
+          <Login />
+        </Grid.Col>
+      </Grid>
     </div>
   );
 }
