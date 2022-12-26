@@ -75,10 +75,10 @@ function Signup() {
           <a href="/">Bizimle iletişime geç</a>
         </div>
 
-        <Grid>
+        <Grid class="gonderbutonu">
           <Grid.Col md={6} lg={6} span={12} offset={7}>
-            <Button color="dark" radius="xs" uppercase>
-              GÖNDER
+            <Button color="dark" radius="xs">
+              Gönder
             </Button>
           </Grid.Col>
         </Grid>
