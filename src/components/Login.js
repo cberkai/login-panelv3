@@ -43,10 +43,10 @@ function Login() {
           </Grid.Col>
         </Grid>
       </div>
-      <div style={{ marginTop: "100px" }}>
+      <div style={{ marginTop: "100px", marginLeft: "-30px" }}>
         <Image
           width={400}
-          height={80}
+          height={100}
           src="https://www.linkpicture.com/q/wiradius.png"
         />
       </div>
